@@ -1,0 +1,64 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "users",
+    "collectionId": "95b2bca1-ce80-4565-a3a7-26fa0fda00a8",
+    "dateExported": "2024-06-13T03:54:13.668Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a9f7e1af-db9b-4204-9409-82bc21fb84ea",
+            "colId": "95b2bca1-ce80-4565-a3a7-26fa0fda00a8",
+            "containerId": "",
+            "name": "CreateUsers",
+            "url": "http://127.0.0.1:5000/CreateUsers",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-06-12T23:19:27.537Z",
+            "modified": "2024-06-13T03:51:51.137Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"name\": \"Maria\",\r\n  \"age\": 26,\r\n  \"profession\": \"Developer\"\r\n}\r\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "c2362227-58c4-45b5-8665-103f818141ed",
+            "colId": "95b2bca1-ce80-4565-a3a7-26fa0fda00a8",
+            "containerId": "",
+            "name": "GetAllUsers",
+            "url": "http://127.0.0.1:5000/GetAllUsers",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-06-13T03:36:26.130Z",
+            "modified": "2024-06-13T03:41:00.044Z",
+            "headers": []
+        },
+        {
+            "_id": "c933d072-290b-4e4e-b8b7-35a05571745c",
+            "colId": "95b2bca1-ce80-4565-a3a7-26fa0fda00a8",
+            "containerId": "",
+            "name": "GetUserByID",
+            "url": "http://127.0.0.1:5000/GetUser/2",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-06-13T03:40:28.276Z",
+            "modified": "2024-06-13T03:52:09.722Z",
+            "headers": []
+        },
+        {
+            "_id": "b2132d06-0369-49e2-824c-33596c775a30",
+            "colId": "95b2bca1-ce80-4565-a3a7-26fa0fda00a8",
+            "containerId": "",
+            "name": "DeleteUser",
+            "url": "http://127.0.0.1:5000/DeleteUser/1",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-06-13T03:43:51.854Z",
+            "modified": "2024-06-13T03:50:09.598Z",
+            "headers": []
+        }
+    ],
+    "ref": "E9gMyh2xxo2oyAWNhRHq43HnyDwsaJaQMEO_HHgBIId6zaq4xGL9lsBfrxBOX58oK6GJ6-OTWNYPJ81svbUlrA"
+}
